@@ -10,6 +10,9 @@ Then navigate to `http://localhost:4200/`.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## admin details
+email: abhishekp712001@admin.com
+pw: Abhishek
 
 
 ## Build
