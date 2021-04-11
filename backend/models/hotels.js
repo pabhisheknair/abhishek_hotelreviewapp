@@ -10,7 +10,7 @@ const hotelSchema = mongoose.Schema({
   album: { type: String, maxlength: 30 },
   year: { type: String},
   zeroByte: { type: String},
-  comment: { type: String, maxlength: 30 },
+  comment: { type: String, maxlength: 240 },
   track: { type: String},
   genre: { type: String, maxlength: 15 }
 });
