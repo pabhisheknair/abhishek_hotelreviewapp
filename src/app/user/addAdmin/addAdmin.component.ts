@@ -15,5 +15,6 @@ export class AddAdminComponent {
     if (form.invalid) { return; }
     const email = form.value.newAdmin + '@admin.com';
     this.authService.createAdmin(email, form.value.password);
+    form.resetForm();
   }
 }

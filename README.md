@@ -11,8 +11,10 @@ Then navigate to `http://localhost:4200/`.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## admin details
-email: abhishekp712001@admin.com
-pw: Abhishek
+use admin signup to create admin account 
+note:while entering admin's in signup ,we should only enter part before @ .So automaticaly admin's email would be generated as '-------@admin.com' 
+ eg :anyusername@admin.com
+
 
 
 ## Build

@@ -14,8 +14,11 @@
     </li>
 
     <li *ngIf="!userIsAuthenticated && !adminIsAuthenticated">
-      <a mat-button routerLink="/signup" routerLinkActive="mat-accent">Signup</a>
+      <a mat-button routerLink="/signup" routerLinkActive="mat-accent">User Signup</a>
     </li>
+    <li *ngIf="!userIsAuthenticated && !adminIsAuthenticated">
+      <button mat-button routerLink="/add-admin" routerLinkActive="mat-accent" >Admin Signup</button>
+  </li>
 
     <li *ngIf="adminIsAuthenticated">
         <button mat-button routerLink="/add-admin" routerLinkActive="mat-accent" >Add Admin</button>
